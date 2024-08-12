@@ -1,0 +1,21 @@
+.main-footer {
+  background-color: var(--almost-white);
+  padding: 20px;
+  text-align: center;
+  color: var(--medium-gray);
+}
+
+.main-footer .footer-links a {
+  text-decoration: none;
+  color: var(--medium-gray);
+  font-weight: bold;
+  margin: 10px; 
+  margin-right: 100px;
+  display: inline;
+
+}
+
+.main-footer .footer-links a:hover {
+  color: var(--almost-black);
+}
+

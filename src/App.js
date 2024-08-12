@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navigation from './Navigation';
+import Footer from './Footer';
+import Picture from './image-hero-desktop.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation />
+      <main>
+        <div className="content">
+          <h1>Make remote work</h1>
+          <p>Get your team in sync, no matter your location. <br></br>and watch productivity soar.</p>
+          <button className="learn-more">Learn more</button>
+        </div>
+        <div className="MyPic">
+          <img src={Picture} alt="Remote work" />
+        </div>
+      </main>
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,146 @@
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(245, 239, 239);
+  color: white;
+}
+
+.Logo img {
+  height: 40px;
+}
+
+.dropdown-content ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-content li {
+  position: relative;
+  margin-right: 20px;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-content .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dropdown-content li:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-content .dropdown-menu a {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.login a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+
+.login button a {
+  text-decoration: none;
+  color: black;
+}
+
+.login button {
+  background-color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+} 
+
+
+
+
+
+
+
+
+
+/* .App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(245, 239, 239);
+  color: white;
+}
+
+.Logo img {
+  height: 40px;
+}
+
+.dropdown-content ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-content li {
+  position: relative;
+  margin-right: 20px;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-content .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dropdown-content li:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-content .dropdown-menu a {
+  display: block;
+  margin: 5px 0;
+}
+
+.login a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+
+.login button a {
+  text-decoration: none;
+  color: black;
+}
+
+.login button {
+  background-color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+} */

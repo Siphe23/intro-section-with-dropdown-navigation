@@ -1,38 +1,99 @@
+:root {
+  --almost-white: hsl(0, 0%, 98%);
+  --medium-gray: hsl(0, 0%, 41%);
+  --almost-black: hsl(0, 0%, 8%);
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--almost-white);
+  font-family: Arial, sans-serif;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: left;
 }
 
-.App-link {
-  color: #61dafb;
+.content {
+  flex: 1;
+  margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.content h1 {
+  font-size: 3rem;
+  color: var(--almost-black);
+  margin-bottom: 20px;
+  font-weight: bolder;
+  margin-left: 100px;
+}
+
+.content p {
+  font-size: 1.2rem;
+  color: var(--medium-gray);
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+
+.learn-more {
+  background-color: white;
+  color:black;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 18%;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 100px;
+}
+
+.learn-more:hover {
+  background-color: var(--medium-gray);
+}
+
+.MyPic img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-right: 200px;
+}
+
+.main-footer {
+  background-color: var(--almost-white);
+  padding: 20px;
+  text-align: center;
+  color: var(--medium-gray);
+ 
+}
+
+.main-footer a {
+  text-decoration: none;
+  color: var(--medium-gray);
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.main-footer a:hover {
+  color: var(--almost-black);
+}
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .content {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .MyPic {
+    margin-top: 20px;
   }
 }
